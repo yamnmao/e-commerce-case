@@ -1,5 +1,6 @@
 import { ReactNode } from "react"
 import { cn } from "../lib/utils"
+
 //{}:{type for typescript}, ?: means optional, doesn't need to exist, if does, then here is the type
 export const MaxWidthWrapper=({
     className,
