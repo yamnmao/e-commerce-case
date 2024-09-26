@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Phone from "../components/Phone";
+import Phone from "@/components/Phone";
 import { Icons } from "@/components/Icons";
 import { Reviews } from "@/components/Reviews";
 
@@ -119,6 +119,7 @@ export default function Home() {
           </div>
         </MaxWidthWrapper>
       </section>
+
        {/* value proposition section */}
        <section className='bg-slate-100 grainy-dark py-24'>
         <MaxWidthWrapper className='flex flex-col items-center gap-16 sm:gap-32'>
@@ -210,7 +211,7 @@ export default function Home() {
         </MaxWidthWrapper>
 
         <div className='pt-16'>
-          <Reviews/>
+        <Reviews/>
         </div>
       </section>
 
